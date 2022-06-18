@@ -112,18 +112,19 @@ img {
     padding: 100px 0 60px 0;
 }
 
-.catchcopy h1 {
+.catchcopy h3 {
     font-size: 82px;
     letter-spacing: 0.1em;
     line-height: 1.17;
     padding-bottom: 40px;
+    font-weight: normal;
 }
 
-.catchcopy.bun {
+.catchcopy .bun {
     line-height: 1.65;
     font-size: 23px;
     margin-bottom: 100px;
-    max-width: 840px;
+    /*  max-width: 840px; */
     text-align: center;
 }
 
@@ -139,8 +140,10 @@ img {
 .about {
     display: flex;
     flex-direction: column;
-    margin: 60px 0 60px 80px;
+    /* margin: 60px 0 60px 80px; */
+    margin: 60px 0 60px 8%;
     text-align: left;
+    width: 42%;
 }
 
 .cafe img {
@@ -173,8 +176,8 @@ img {
     line-height: 1.6;
     text-align: left;
     margin: 40px 0 0 0;
-    width: 410px;
-    padding-bottom: -40px;
+    /* width: 410px;
+    padding-bottom: -40px; */
 }
 
 .menu {
@@ -196,15 +199,16 @@ img {
     justify-content: space-between;
     margin: 0 auto;
     padding: 0 10px;
+    width: 30%;
     /* padding: 0 460px; */
     /* text-align: center; */
 }
 
 .set img:not(:last-child) {
     border-top-right-radius: 42px;
-    width: 300px;
+    /* width: 300px;
     height: 200px;
-    margin-right: 60px;
+    margin-right: 60px;*/
     /* align-items: center; */
     /* position: relative; */
     /* margin: 0 auto; */
@@ -223,10 +227,10 @@ img {
 
 .set p {
     font-size: 17px;
-    line-height: 25px;
-    width: 300px;
+    line-height: 1.47;
+    /*  width: 300px; */
     text-align: left;
-    margin-top: 45px
+    margin-top: 45px;
 }
 
 
@@ -253,7 +257,7 @@ img {
     padding: 0 10px;
 }
 
-.event h1 {
+.event p {
     padding: 70px 0 45px 0;
     width: 174px;
     height: 78px;
@@ -298,10 +302,15 @@ img {
     line-height: 45px;
 }
 
-.access img {
+.access {
+    text-align: center;
+}
+
+.access .info {
     padding: 80px 0 50px 0;
     width: 214px;
     height: 78px;
+    margin: 0 auto;
 }
 
 .map iframe {
@@ -336,6 +345,10 @@ img {
     /* margin-left: 460px; */
 }
 
+.dezain {
+    padding-right: 70px;
+}
+
 .footer_info p {
     font-size: 20px;
     line-height: 39px;
@@ -345,7 +358,7 @@ img {
     width: 227px;
     height: 50px;
     font-size: 52px;
-    padding-right: 70px;
+    /* padding-right: 70px; */
     display: flex;
 }
 
