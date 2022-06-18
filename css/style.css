@@ -1,0 +1,353 @@
+@charset"utf-8";
+
+/* リセット */
+html,
+body,
+header,
+footer,
+main,
+section,
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #4f260b;
+    font-family: "A1 Mincho", "游明朝", YuMincho, "Hiragino Mincho ProN W3",
+        "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
+        "ＭＳ 明朝", serif;
+    font-feature-settings: "palt";
+}
+
+a {
+    /*下線を消す*/
+    text-decoration: none;
+    /*色を消す*/
+    color: inherit;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+ul {
+    /*左の「・」を消す*/
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: none;
+}
+
+/* body {
+    background: #000;
+} */
+
+/* ヘッダー */
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 6.53% 0 2.51%;
+    position: absolute;
+    /* サイト全体からの位置取り */
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header_logo {
+    width: 226.76px;
+}
+
+.pc_nav ul {
+    display: flex;
+}
+
+.pc_nav li {
+    width: 104px;
+    margin-right: 55px;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.pc_nav ul li:last-child {
+    margin-right: 0;
+}
+
+.slider img {
+    width: 100%;
+}
+
+
+/* ここから　入れたが反応のなかったものはコメントしている */
+.main {
+    background-color: #E8D9BF;
+    font-family: "游明朝", YuMincho;
+}
+
+.catchcopy {
+    text-align: center;
+    padding: 0 10px;
+    width: 100%;
+    /* align-items: center; */
+}
+
+.catchcopy h2 {
+    font-size: 30px;
+    padding: 100px 0 60px 0;
+}
+
+.catchcopy h1 {
+    font-size: 82px;
+    letter-spacing: 0.1em;
+    line-height: 1.17;
+    padding-bottom: 40px;
+}
+
+.catchcopy bun {
+    line-height: 1.65;
+    font-size: 23px;
+    margin-bottom: 100px;
+    max-width: 840px;
+    text-align: center;
+}
+
+.shoukai {
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 10px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0 60px 80px;
+    text-align: left;
+}
+
+.cafe img {
+    border-bottom-right-radius: 80px;
+    /* margin: 0 auto;*/
+    /* width: 50%; */
+    /* height: 500px; */
+    object-fit: contain;
+
+    /* height: 560px; */
+}
+
+.cafe {
+    width: 50%;
+}
+
+.about h2 img {
+    width: 272px;
+    height: 77px;
+    padding-bottom: 60px;
+}
+
+.coffe {
+    line-height: 1.4;
+    font-size: 44px;
+}
+
+.tee {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+    margin: 40px 0 0 0;
+    width: 410px;
+    padding-bottom: -40px;
+}
+
+.menu {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.moji {
+    font-size: 81px;
+    padding: 100px 0 50px 0;
+    width: 151px;
+    height: 71px;
+    margin: 0 auto;
+}
+
+.set {
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 10px;
+    /* padding: 0 460px; */
+    /* text-align: center; */
+}
+
+.set img:not(:last-child) {
+    border-top-right-radius: 42px;
+    width: 300px;
+    height: 200px;
+    margin-right: 60px;
+    /* align-items: center; */
+    /* position: relative; */
+    /* margin: 0 auto; */
+}
+
+.set h3 {
+    font-size: 38px;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 15px;
+    position: absolute;
+    /* relative,absoluteのやり方でできなかった為-marginを入れた */
+    margin-top: -10px;
+    color: #d30202;
+}
+
+.set p {
+    font-size: 17px;
+    line-height: 25px;
+    width: 300px;
+    text-align: left;
+    margin-top: 45px
+}
+
+
+.gallery h2 {
+    padding: 150px 0 25px 0;
+    font-size: 81px;
+    width: 245px;
+    height: 78px;
+    margin: 0 auto;
+}
+
+.gallery ul {
+    display: flex;
+    text-align: center;
+
+}
+
+.gallery li {
+    width: 384px;
+    height: 300px;
+}
+
+.event {
+    padding: 0 10px;
+}
+
+.event h1 {
+    padding: 70px 0 45px 0;
+    width: 174px;
+    height: 78px;
+    margin: 0 auto;
+    /*   font-size: 81px; */
+}
+
+.event ul {
+    max-width: 1000px;
+    padding: 30px 0;
+    border: 4px solid #4f260b;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 23px;
+    justify-content: center;
+
+}
+
+.event li {
+    text-align: left;
+    display: inline-block;
+
+}
+
+.span {
+    padding-left: 45px;
+    text-decoration: underline;
+    line-height: 2;
+
+}
+
+.newsbox p {
+    line-height: 45px;
+}
+
+.newsbox p1 {
+    text-decoration: underline;
+    line-height: 45px;
+}
+
+.access img {
+    padding: 80px 0 50px 0;
+    width: 214px;
+    height: 78px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 471px;
+    vertical-align: bottom;
+}
+
+.cafelogo {
+    text-align: right;
+    /* padding: 0 300px 0 0; */
+    width: 125px;
+    height: 125px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.footer {
+    align-items: center;
+    /* display: flex; */
+    background-color: #ffffff;
+    padding: 0 10px;
+}
+
+.footer_info {
+    padding-top: 80px;
+    display: flex;
+    max-width: 1000px;
+    /* justify-content: center; */
+    margin: 0 auto;
+    /* margin-left: 460px; */
+}
+
+.footer_info p {
+    font-size: 20px;
+    line-height: 39px;
+}
+
+.footer_info img {
+    width: 227px;
+    height: 50px;
+    font-size: 52px;
+    padding-right: 70px;
+    display: flex;
+}
+
+.since p {
+    padding: 70px 0;
+    text-align: center;
+}
