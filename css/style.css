@@ -103,7 +103,7 @@ img {
 .catchcopy {
     text-align: center;
     padding: 0 10px;
-    width: 100%;
+    /* width: 100%; */
     /* align-items: center; */
 }
 
@@ -199,9 +199,13 @@ img {
     justify-content: space-between;
     margin: 0 auto;
     padding: 0 10px;
-    width: 30%;
+    /* width: 30%; */
     /* padding: 0 460px; */
     /* text-align: center; */
+}
+
+.set>div {
+    width: 30%;
 }
 
 .set img:not(:last-child) {
@@ -276,7 +280,7 @@ img {
     text-align: center;
     font-size: 23px;
     justify-content: center;
-    padding-left: 15%;
+    padding-left: 14%;
     box-sizing: border-box;
 }
 
@@ -288,20 +292,22 @@ img {
 
 .span {
     padding-left: 45px;
+    /* padding-left: 55px; */
     text-decoration: underline;
     line-height: 2;
 
 }
 
+/* 
 .newsbox p {
-    line-height: 45px;
+    line-height: 1.95;
 }
 
 .newsbox p1 {
     text-decoration: underline;
-    line-height: 45px;
+    line-height: 1.95;
 }
-
+ */
 .access {
     text-align: center;
 }
